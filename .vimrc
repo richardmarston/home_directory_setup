@@ -204,3 +204,5 @@ endfunction
 " }}}
 
 " vim:foldmethod=marker:foldlevel=0
+:highlight ExtraWhitespace ctermbg=red guibg=red
+:match ExtraWhitespace /\s\+$/
